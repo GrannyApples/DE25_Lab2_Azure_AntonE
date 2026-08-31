@@ -8,4 +8,5 @@ __pycache__/
 .kaggle/
 
 # OS
-.DS_Store
+.DS_Store.idea/
+.idea/
