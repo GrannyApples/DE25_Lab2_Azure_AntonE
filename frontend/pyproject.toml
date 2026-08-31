@@ -7,10 +7,11 @@ authors = [
     { name = "GrannyApples", email = "anton.engstrom1994@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
-
-[project.scripts]
-frontend = "frontend:main"
+dependencies = [
+    "pandas>=3.0.5",
+    "requests>=2.34.2",
+    "streamlit>=1.62.0",
+]
 
 [build-system]
 requires = ["uv_build>=0.10.0,<0.11.0"]
