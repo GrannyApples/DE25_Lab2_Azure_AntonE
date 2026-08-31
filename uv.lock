@@ -13,7 +13,7 @@ resolution-markers = [
 [manifest]
 members = [
     "backend",
-    "eclipseboard",
+    "de25-lab2-azure-antone",
     "frontend",
 ]
 
@@ -75,7 +75,7 @@ wheels = [
 ]
 
 [[package]]
-name = "eclipseboard"
+name = "de25-lab2-azure-antone"
 version = "0.1.0"
 source = { virtual = "." }
 
