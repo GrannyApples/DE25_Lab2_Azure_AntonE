@@ -12,4 +12,3 @@ df = kagglehub.dataset_load(
     "nasa/solar-eclipses",
     file_path,
 )
-print("First 5 records:", df.head())
