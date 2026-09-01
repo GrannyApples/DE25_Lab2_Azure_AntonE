@@ -1,0 +1,1 @@
+https://www.kaggle.com/datasets/nasa/solar-eclipses?select=solar.csv

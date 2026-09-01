@@ -11,3 +11,8 @@ members = [
     "frontend",
     "backend",
 ]
+
+[dependency-groups]
+dev = [
+    "kagglehub>=1.0.2",
+]
