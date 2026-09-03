@@ -3,6 +3,7 @@ services:
     build:
       context: .
       dockerfile: backend/Dockerfile
+    image: labantonazure.azurecr.io/eclipseboard-backend:latest
     ports:
       - "8000:8000"
 
@@ -10,6 +11,7 @@ services:
     build:
       context: .
       dockerfile: frontend/Dockerfile
+    image: labantonazure.azurecr.io/eclipseboard-frontend:latest
     ports:
       - "8501:8501"
     environment:
