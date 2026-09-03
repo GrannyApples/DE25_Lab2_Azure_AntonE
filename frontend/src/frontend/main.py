@@ -1,10 +1,11 @@
 import pandas as pd
 import requests
 import streamlit as st
+import os
 
-BACKEND_URL = "http://localhost:8000"
+BACKEND_URL = os.getenv("BACKEND_URL")
 
-st.set_page_config(page_title="eClipseBoard", page_icon="🌒")
+st.set_page_config(page_title="eClipseBoard")
 
 st.title("eClipseBoard")
 
